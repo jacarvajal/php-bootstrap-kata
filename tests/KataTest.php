@@ -4,7 +4,9 @@
 namespace Kata\Test;
 
 
-class KataTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class KataTest extends TestCase
 {
 
     /** @test */
